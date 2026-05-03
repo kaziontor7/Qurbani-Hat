@@ -6,7 +6,7 @@ import Link from "next/link";
 
 
 const Listings = async () => {
-  const allAnimals = await getAnimals();
+  const allAnimals = await  getAnimals('https://qurbani-hat-data.onrender.com/cattle');
   return (
     <div className="md:py-16 py-8 md:px-6 px-3">
       <h2 className="font-bold text-3xl dark ">Featured Listings</h2>

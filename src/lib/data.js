@@ -1,5 +1,5 @@
-export const getAnimals = async () => {
-    const res = await fetch('https://qurbani-hat-data.onrender.com/cattle')
+export const getAnimals = async (server) => {
+    const res = await fetch(server)
     const data = await res.json()
-    return data;
+    return await data;
 }
