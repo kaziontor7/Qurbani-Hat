@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-manrope",
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700","800"],
 });
 
 export const metadata = {
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       data-theme="light"
       className={` ${manrope.variable} h-full antialiased`}
     >
-      <body className={`h-full bg-[#FDFDFB] text-[#173809] ${manrope.className} bg-[#F9FAF2] min-h-screen flex flex-col`}>
+      <body className={`h-full bg-[#FDFDFB] ${manrope.className} bg-[#F9FAF2] min-h-screen flex flex-col`}>
         
         <Navbar />
         <main className="grow">

@@ -12,7 +12,7 @@ const Listings = async () => {
       <h2 className="font-bold text-3xl dark ">Featured Listings</h2>
       <div className="flex items-center justify-between pt-1.75 pb-8">
         <p className="light-dark ">Verified health and premium quality.</p>
-        <Link href={'/'}>
+        <Link href={'/all-animals'}>
           <Button variant="ghost" className='primary'>View All <FaArrowRight />
           </Button>
         </Link>

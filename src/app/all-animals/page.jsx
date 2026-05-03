@@ -30,7 +30,7 @@ const AllAnimalsPage = () => {
         <div className="pt-10 pb-15 px-6">
             <div className="space-y-2">
                 <p className="dark text-5xl font-extrabold">Browse All Animals</p>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between md:items-center flex-col md:flex-row gap-2">
                     <div>
                         <p className="light-dark text-lg">Discover our curated selection of premium livestock for your needs.</p>
                     </div>

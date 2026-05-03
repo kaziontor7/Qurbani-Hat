@@ -2,7 +2,7 @@
 
 const Footer = () => {
     return (
-        <div className="">
+        <div className="border-t border-[#E7E5E4]">
         <div className="py-12 px-8 flex flex-col md:flex-row items-start justify-between md:gap-8 space-y-3.5 bg-[#F9F8F6] ">
             <div className="space-y-3.5">
                 <h1 className="primary text-lg font-bold">QurbaniHat</h1>
@@ -10,7 +10,7 @@ const Footer = () => {
                     the heritage of the trade.</p>
             </div>
             <div className="space-y-3.5">
-                <p className="secondary">about us</p>
+                <p className="secondary">About Us</p>
                 <p className="secondary">Contact info</p>
             </div>
             <div className="space-y-3.5">

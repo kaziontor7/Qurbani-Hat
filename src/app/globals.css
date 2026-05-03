@@ -16,3 +16,28 @@
 .light-dark {
   color: #43493E;
 }
+.image-gallery-thumbnail {
+  width: 200px !important;
+  padding: 0 !important;
+  border: none !important;
+  margin: 0 5px !important;
+  background: transparent !important;
+  
+}
+
+.image-gallery-thumbnail img {
+  display: block;
+  width: 100% !important;
+  height: 200px !important;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.image-gallery-thumbnails-container {
+  padding: 20px 0 !important;
+}
+
+.image-gallery-thumbnail.active {
+  border: 4px solid #43493E !important;
+  border-radius: 16px;
+}
