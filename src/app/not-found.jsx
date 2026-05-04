@@ -1,9 +1,12 @@
 ﻿
+import Footer from '@/components/Footer';
 import Link from 'next/link';
 import { PiCowFill } from 'react-icons/pi';
 
 const NotFound = () => {
     return (
+        <div>
+
         <div className="min-h-screen bg-gradient-to-br from-[#f9faf5] via-[#fdfbf6] to-[#f0f6ea] flex flex-col items-center justify-center p-6  text-center">
             <div className="relative mb-8">
               <PiCowFill className='text-9xl primary' />
@@ -37,6 +40,8 @@ const NotFound = () => {
                     All Animals
                 </Link>
             </div>
+        </div>
+        <Footer></Footer>
         </div>
     );
 };

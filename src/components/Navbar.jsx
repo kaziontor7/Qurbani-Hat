@@ -33,8 +33,8 @@ const Navbar = () => {
             </Dropdown.Item>
             <Dropdown.Item id="buttons" textValue="buttons">
                <div className="flex items-center gap-6">
-                <Link href={'/signin'}>
-                <Button variant="ghost" className="secondary">Sign in</Button>
+                <Link href={'/login'} >
+                <Button variant="ghost" >Sign in</Button>
                 </Link>
                 <Link href={'/register'}>
                 <Button className="text-white bg-[#173809]">Register</Button>
@@ -52,8 +52,12 @@ const Navbar = () => {
                 <Link className={`${pathname === '/all-animals' ? "font-semibold primary border-b-2 border-[#F59E0B] hidden md:block" : "secondary font-medium hidden md:block"} `} href={'/all-animals'}>All Animals</Link>
             </div>
             <div className=" items-center gap-6 hidden md:flex">
+              <Link href={'/login'}>
                 <Button variant="ghost" className="secondary">Sign in</Button>
+              </Link>
+              <Link href={'/register'}>
                 <Button className="text-white bg-[#173809]">Register</Button>
+              </Link>
             </div>
 
         </div>

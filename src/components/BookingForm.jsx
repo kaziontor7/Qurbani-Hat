@@ -30,22 +30,22 @@ const BookingForm = () => {
                     </Description>
                     <FieldGroup>
                         <TextField isRequired name="name" type="text">
-                            <Label className="font-semibold text-sm primary">Full Name</Label>
+                            <Label className="font-semibold text-sm dark">Full Name</Label>
                             <Input className="bg-[#BEC9C2]/20 placeholder:text-[#6B7280]" placeholder="Your Name" />
                             <FieldError />
                         </TextField>
                         <TextField isRequired name="email" type="email">
-                            <Label className="font-semibold text-sm primary">Email Address</Label>
+                            <Label className="font-semibold text-sm dark">Email Address</Label>
                             <Input className="bg-[#BEC9C2]/20 placeholder:text-[#6B7280]" placeholder="Your Email" />
                             <FieldError />
                         </TextField>
                         <TextField isRequired name="phone" type="text">
-                            <Label className="font-semibold text-sm primary">Phone Number</Label>
+                            <Label className="font-semibold text-sm dark">Phone Number</Label>
                             <Input className="bg-[#BEC9C2]/20 placeholder:text-[#6B7280]" placeholder="Your phone number" />
                             <FieldError />
                         </TextField>
                         <TextField isRequired name="address">
-                            <Label className="font-semibold text-sm primary">Delivery/ Pickup Address</Label>
+                            <Label className="font-semibold text-sm dark">Delivery/ Pickup Address</Label>
                             <TextArea className="h-20 bg-[#BEC9C2]/20 placeholder:text-[#6B7280]" placeholder="Enter full address or notes..." />
                             <FieldError />
                         </TextField>

@@ -1,7 +1,5 @@
 import { Manrope } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 
 const manrope = Manrope({
@@ -24,11 +22,11 @@ export default function RootLayout({ children }) {
     >
       <body className={`h-full bg-[#FDFDFB] ${manrope.className} bg-[#F9FAF2] min-h-screen flex flex-col`}>
         
-        <Navbar />
+        
         <main className="grow">
         {children}
         </main>
-        <Footer ></Footer>
+       
         </body>
     </html>
   );
