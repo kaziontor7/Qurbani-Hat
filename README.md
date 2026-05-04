@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🐐 Qurbani Hat  
 
-## Getting Started
+A modern digital marketplace for browsing and booking livestock for Qurbani. This platform simplifies the traditional Qurbani process by allowing users to explore, compare, and reserve animals online.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 Live Demo  
+👉 https://qurbani-hat-gamma.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🎯 Purpose  
+Qurbani Hat is designed to provide a seamless digital experience for users looking to purchase livestock for Qurbani. It connects buyers with available animals through a user-friendly interface and secure booking system.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Key Features  
 
-To learn more about Next.js, take a look at the following resources:
+### 🛒 Livestock Marketplace  
+Browse a wide range of available animals in one centralized platform.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📄 Detailed Listings  
+Each animal has its own dynamic page with detailed information, including price, description, and specifications.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 📅 Booking Integration  
+Reserve livestock easily using an integrated booking form.
 
-## Deploy on Vercel
+### 🔐 User Accounts  
+Secure authentication system with login and registration functionality.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🖼️ Media Gallery  
+High-quality image galleries to showcase livestock visually.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend:** React  
+- **UI Library:** HeroUI  
+- **Backend/Auth:** better-auth  
+- **Database:** MongoDB  
+
+---
+
+## 📦 External Dependencies  
+
+The following npm packages are used in this project:
+
+- `@better-auth/mongo-adapter` – MongoDB adapter for authentication  
+- `better-auth` – Authentication framework  
+- `mongodb` – MongoDB driver  
+- `@heroui/react` – UI components  
+- `@heroui/styles` – Styling system  
+- `react-hook-form` – Form handling and validation  
+- `react-icons` – Icon library  
+- `react-image-gallery` – Image carousel for listings  
+- `react-toastify` – Notifications and alerts  
+
+
